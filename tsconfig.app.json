@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",  // Updated to ESNext for modern features
+      "useDefineForClassFields": true,
+      "lib": ["ESNext", "DOM", "DOM.Iterable"],
+      "module": "ESNext",
+      "skipLibCheck": true,
+  
+      /* Bundler mode */
+      "moduleResolution": "bundler",
+      "allowImportingTsExtensions": true,
+      "isolatedModules": true,
+      "moduleDetection": "force",
+      "noEmit": true,
+      "jsx": "react-jsx",
+  
+      /* Linting */
+      "strict": true,  // Enable strict mode for better type safety
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noImplicitAny": true,  // Enable for better type safety
+      "noFallthroughCasesInSwitch": false,
+  
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["/src/*"]
+      },
+      "types": ["vite/client"]  // Added for Vite types
+    },
+    "include": ["src"],
+    "extends": "./tsconfig.json"  // Ensure it extends the base tsconfig.json
+  }

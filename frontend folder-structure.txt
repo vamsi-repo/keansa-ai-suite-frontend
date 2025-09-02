@@ -1,0 +1,147 @@
+
++-- dist
+¦   +-- assets
+¦   ¦   +-- Data Validations-B5zqh_4z.png
+¦   ¦   +-- index-DRgoCnNu.css
+¦   ¦   +-- index-IO0aX73z.js
+¦   ¦   +-- Keansa_Logo-B3ye--dC.png
+¦   ¦   +-- Rule Configurations-ChvRrK2m.png
+¦   +-- favicon.ico
+¦   +-- index.html
+¦   +-- Keansa_Logo.png
+¦   +-- placeholder.svg
+¦   +-- robots.txt
++-- frontend
+¦   +-- assets
+¦   ¦   +-- Data Validations-B5zqh_4z.png
+¦   ¦   +-- index-DRgoCnNu.css
+¦   ¦   +-- index-Du_2H8sP.js
+¦   ¦   +-- Keansa_Logo-B3ye--dC.png
+¦   ¦   +-- Rule Configurations-ChvRrK2m.png
+¦   +-- favicon.ico
+¦   +-- index.html
+¦   +-- Keansa_Logo.png
+¦   +-- placeholder.svg
+¦   +-- robots.txt
++-- src
+¦   +-- components
+¦   ¦   +-- ui
+¦   ¦   ¦   +-- accordion.tsx
+¦   ¦   ¦   +-- alert-dialog.tsx
+¦   ¦   ¦   +-- alert.tsx
+¦   ¦   ¦   +-- aspect-ratio.tsx
+¦   ¦   ¦   +-- avatar.tsx
+¦   ¦   ¦   +-- badge.tsx
+¦   ¦   ¦   +-- breadcrumb.tsx
+¦   ¦   ¦   +-- button.tsx
+¦   ¦   ¦   +-- calendar.tsx
+¦   ¦   ¦   +-- card.tsx
+¦   ¦   ¦   +-- carousel.tsx
+¦   ¦   ¦   +-- chart.tsx
+¦   ¦   ¦   +-- checkbox.tsx
+¦   ¦   ¦   +-- collapsible.tsx
+¦   ¦   ¦   +-- command.tsx
+¦   ¦   ¦   +-- context-menu.tsx
+¦   ¦   ¦   +-- dialog.tsx
+¦   ¦   ¦   +-- drawer.tsx
+¦   ¦   ¦   +-- dropdown-menu.tsx
+¦   ¦   ¦   +-- form.tsx
+¦   ¦   ¦   +-- hover-card.tsx
+¦   ¦   ¦   +-- input-otp.tsx
+¦   ¦   ¦   +-- input.tsx
+¦   ¦   ¦   +-- label.tsx
+¦   ¦   ¦   +-- menubar.tsx
+¦   ¦   ¦   +-- navigation-menu.tsx
+¦   ¦   ¦   +-- pagination.tsx
+¦   ¦   ¦   +-- popover.tsx
+¦   ¦   ¦   +-- progress.tsx
+¦   ¦   ¦   +-- radio-group.tsx
+¦   ¦   ¦   +-- resizable.tsx
+¦   ¦   ¦   +-- scroll-area.tsx
+¦   ¦   ¦   +-- select.tsx
+¦   ¦   ¦   +-- separator.tsx
+¦   ¦   ¦   +-- sheet.tsx
+¦   ¦   ¦   +-- sidebar.tsx
+¦   ¦   ¦   +-- skeleton.tsx
+¦   ¦   ¦   +-- slider.tsx
+¦   ¦   ¦   +-- sonner.tsx
+¦   ¦   ¦   +-- switch.tsx
+¦   ¦   ¦   +-- table.tsx
+¦   ¦   ¦   +-- tabs.tsx
+¦   ¦   ¦   +-- textarea.tsx
+¦   ¦   ¦   +-- toast.tsx
+¦   ¦   ¦   +-- toaster.tsx
+¦   ¦   ¦   +-- toggle-group.tsx
+¦   ¦   ¦   +-- toggle.tsx
+¦   ¦   ¦   +-- tooltip.tsx
+¦   ¦   ¦   +-- use-toast.ts
+¦   ¦   +-- AuthGuard.tsx
+¦   ¦   +-- ConnectionsDialog.tsx
+¦   ¦   +-- ErrorBoundary.tsx
+¦   ¦   +-- FileUpload.tsx
+¦   ¦   +-- Sidebar.tsx
+¦   ¦   +-- StepFour.tsx
+¦   ¦   +-- StepNavigation.tsx
+¦   ¦   +-- StepOne.tsx
+¦   ¦   +-- StepThree.tsx
+¦   ¦   +-- StepTwo.tsx
+¦   +-- contexts
+¦   ¦   +-- AuthContext.tsx
+¦   ¦   +-- ValidationContext.tsx
+¦   +-- hooks
+¦   ¦   +-- use-mobile.tsx
+¦   ¦   +-- use-toast.ts
+¦   +-- images
+¦   ¦   +-- Data Mapping.png
+¦   ¦   +-- Data Validations.png
+¦   ¦   +-- data_maping_1.png
+¦   ¦   +-- data_maping_2.png
+¦   ¦   +-- data_maping_3.png
+¦   ¦   +-- erp.png
+¦   ¦   +-- Error Correction & Detection.png
+¦   ¦   +-- Keansa_Logo.png
+¦   ¦   +-- Local.png
+¦   ¦   +-- Master Data Management.png
+¦   ¦   +-- mdm_1.png
+¦   ¦   +-- mdm_2.png
+¦   ¦   +-- mdm_3.png
+¦   ¦   +-- Rule Configurations.png
+¦   ¦   +-- Rule Management.png
+¦   ¦   +-- sftp-icon.png
+¦   +-- lib
+¦   ¦   +-- utils.ts
+¦   +-- pages
+¦   ¦   +-- AutoDataValidation.tsx
+¦   ¦   +-- Dashboard.tsx
+¦   ¦   +-- DataValidations.tsx
+¦   ¦   +-- DataValidationsPopup.tsx
+¦   ¦   +-- Index.tsx
+¦   ¦   +-- Login.tsx
+¦   ¦   +-- NotFound.tsx
+¦   ¦   +-- Register.tsx
+¦   ¦   +-- RuleConfigurations.tsx
+¦   ¦   +-- RulesManagement.tsx
+¦   ¦   +-- SFTPDashboard.tsx
+¦   ¦   +-- Validate.tsx
+¦   ¦   +-- ViewRules.tsx
+¦   +-- services
+¦   ¦   +-- api.ts
+¦   +-- App.css
+¦   +-- App.tsx
+¦   +-- index.css
+¦   +-- main.tsx
+¦   +-- vite-env.d.ts
++-- .gitignore
++-- eslint.config.js
++-- folder-structure.txt
++-- index.html
++-- nixpacks.toml
++-- package-lock.json
++-- package.json
++-- postcss.config.js
++-- Procfile
++-- tailwind.config.ts
++-- tsconfig.app.json
++-- tsconfig.json
++-- tsconfig.node.json
++-- vite.config.ts
